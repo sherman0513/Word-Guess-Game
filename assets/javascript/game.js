@@ -18,7 +18,7 @@ function gameStart() {
 
     // console.log(num);
     // console.log(letters);
-    // console.log(actualWord)
+    // console.log(randWord)
 
     //empty arrays
     guessesLeft = 10;
