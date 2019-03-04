@@ -64,7 +64,7 @@ function checkAnswer(letter) {
 };
 
 //the following is the game loop for another following a win or a loss
-gameStart();
+
 
 
 function rounds() {
@@ -77,8 +77,8 @@ function rounds() {
         wins++
         document.getElementById("game").innerHTML = wins;
         gameStart();
-    
-    //triggers a loss and adds to the loss tally
+
+        //triggers a loss and adds to the loss tally
     } else if (guessesLeft === 0) {
         losses++
         document.getElementById("losses").innerHTML = losses;
@@ -87,6 +87,7 @@ function rounds() {
 };
 
 //registers what keystroke was executed
+//use getelementbyid and create an id in body of html 
 document.onkeypress = function (event) {
     var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
     //console.log(userGuess);
