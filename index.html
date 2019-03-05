@@ -11,39 +11,46 @@
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 
-<body onload="gameStart()">
-	<h1> Theme </h1>
 
-	<h3> Handgun Brands </h3>
 
-	<div class="wrapper">
-		<br><br>
+<body onload="gameStart()" background="assets/images/fancy-cushion/fancy-cushion.png">
 
-		<h2> Press any key to get started! </h2>
-		<br><br>
+	
+	<div class="container">
+		<div class="jumbotron bg-secondary text-center">
+			<h1 class="text-info"><stong>Theme</stong></h1>
 
-		<!--display items -->
-		<div id="secretAnswer"></div>
-		<br>
+			<h2 class="text-info"> Handgun Brands </h2>
 
-		<h2> Guesses Left </h2>
-		<div id="guessesLeft"></div>
-		<br>
+			<div class="wrapper">
+				<br><br>
 
-		<h2> Answers Already Guessed </h2>
-		<div id="answersGuessed"></div>
-		<br>
+				<h2 class="shadow-lg p-3 mb-5 bg-dark text-white"> Press any key to get started! </h2>
+				<br><br>
 
-		<h2> Loss </h2>
-		<div id="losses"></div>
-		<br>
+				<!--display items -->
+				<div id="secretAnswer" class="bg-info"></div>
+				<br>
 
-		<h2> Win </h2>
-		<div id="game"></div>
-		<br>
+				<h2> Guesses Left </h2>
+				<div id="guessesLeft" class="bg-info"></div>
+				<br>
 
+				<h2> Answers Already Guessed </h2>
+				<div id="answersGuessed" class="bg-info"></div>
+				<br>
+
+				<h2> Loss </h2>
+				<div id="losses" class="bg-info"></div>
+				<br>
+
+				<h2> Win </h2>
+				<div id="game" class="bg-info"></div>
+				<br>
+
+			</div>
+		</div>
 	</div>
-
 
 </body>
 
